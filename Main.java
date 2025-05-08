@@ -53,6 +53,7 @@ public class Main {
                     } catch (Exception e) {
                         System.err.println("Error saving file: " + e.getMessage());
                     }
+                    sc.close();
                     return;
                 }
             }
